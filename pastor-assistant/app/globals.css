@@ -1,0 +1,5 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+/* Background also on html and the layout wrapper: OBS Browser Source makes body transparent by default. */
+html{background:#f3f7fd}
+body{background:#f3f7fd;color:#0b2a6b;font-family:system-ui,Segoe UI,sans-serif}
+:focus-visible{outline:3px solid #2563eb;outline-offset:2px}
